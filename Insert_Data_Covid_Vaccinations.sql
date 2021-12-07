@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INFILE 'Data/covid-vaccinations.csv' 
+INTO TABLE Covid_Vaccinations  
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
